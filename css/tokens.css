@@ -1,0 +1,47 @@
+/* ============================================================
+   tokens.css — Serpentina Taller
+   Design tokens centralizados. Importar primero en style.css.
+   ============================================================ */
+
+:root {
+  /* Colores */
+  --color-lino:       #F7F4EF;
+  --color-carbon:     #1C1917;
+  --color-nogal:      #8B7355;
+  --color-arena:      #C4B89A;
+  --color-superficie: #F0EDE7;
+  --color-hueso:      #EDE9E2;
+  --color-oliva:      #4A5240;
+  --color-caoba:      #6B3D2E;
+
+  /* Tipografía */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans:  'DM Sans', system-ui, sans-serif;
+  --font-mono:  'DM Mono', 'Courier New', monospace;
+
+  /* Espaciado */
+  --space-xs:  0.5rem;
+  --space-sm:  1rem;
+  --space-md:  1.5rem;
+  --space-lg:  2.5rem;
+  --space-xl:  4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 7rem;
+
+  /* Layout */
+  --section-padding-v: 7rem;
+  --section-padding-h: 6rem;
+  --nav-height: 88px;
+
+  /* Bordes */
+  --border-thin:   0.5px solid rgba(28, 25, 23, 0.10);
+  --border-medium: 0.5px solid rgba(28, 25, 23, 0.15);
+  --border-light:  0.5px solid rgba(247, 244, 239, 0.15);
+
+  /* Animaciones */
+  --ease-out:    cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-subtle: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast:    0.3s;
+  --dur-normal:  0.4s;
+  --dur-slow:    0.6s;
+}

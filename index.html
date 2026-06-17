@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serpentina Taller — Ebanistería y Mobiliario a Medida · Ciudad de México</title>
+  <meta name="description" content="Estudio de mobiliario contemporáneo en Ciudad de México. Diseñamos y fabricamos muebles a medida en maderas naturales. Closets, mesas, libreros y proyectos personalizados.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Serpentina Taller — Mobiliario a Medida">
+  <meta property="og:description" content="Estudio de ebanistería y diseño de mobiliario en Ciudad de México.">
+  <meta property="og:image" content="/og-image.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:url" content="https://serpentinataller.mx">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Serpentina Taller",
+    "description": "Estudio de ebanistería y mobiliario a medida",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ciudad de México",
+      "addressCountry": "MX"
+    },
+    "telephone": "",
+    "url": "https://serpentinataller.mx",
+    "sameAs": ["https://instagram.com/taller_serpentina"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========================================================
+       NAV
+       ======================================================== -->
+  <nav id="nav" role="navigation" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo" aria-label="Serpentina Taller — inicio">
+        <!-- Reemplazar con la imagen cuando esté disponible -->
+        <img src="assets/logos/Serpentina_Taller_Light.svg"
+             alt="Serpentina Taller"
+             height="60"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <span class="nav-logo-text" style="display:none">Serpentina Taller</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn-dark">Cotizar proyecto</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========================================================
+       MOBILE NAV
+       ======================================================== -->
+  <div id="mobile-nav" class="mobile-nav" aria-hidden="true" role="dialog" aria-label="Menú de navegación">
+    <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Cerrar menú">&#215;</button>
+    <ul class="mobile-nav-links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#portafolio">Portafolio</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="btn btn-dark">Cotizar proyecto</a>
+  </div>
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+
+  <!-- ========================================================
+       MAIN
+       ======================================================== -->
+  <main>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero" aria-label="Inicio">
+      <div class="hero-visual" aria-hidden="true">
+        <!-- SVG de vetas de madera -->
+        <svg class="hero-grain" xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 700 900" preserveAspectRatio="xMidYMid slice">
+          <path d="M-20,30 C200,18 380,42 720,28"   stroke="rgba(139,115,85,0.10)" stroke-width="0.8"  fill="none"/>
+          <path d="M-20,75 C150,88 380,62 720,80"   stroke="rgba(139,115,85,0.14)" stroke-width="1.2"  fill="none"/>
+          <path d="M-20,118 C180,108 360,132 720,115" stroke="rgba(139,115,85,0.09)" stroke-width="0.9" fill="none"/>
+          <path d="M-20,162 C200,150 400,175 720,158" stroke="rgba(139,115,85,0.15)" stroke-width="1.0" fill="none"/>
+          <path d="M-20,206 C160,196 380,218 720,202" stroke="rgba(139,115,85,0.11)" stroke-width="1.3" fill="none"/>
+          <path d="M-20,250 C150,240 360,262 720,248" stroke="rgba(139,115,85,0.08)" stroke-width="0.7" fill="none"/>
+          <path d="M-20,295 C200,282 380,308 720,292" stroke="rgba(139,115,85,0.13)" stroke-width="1.1" fill="none"/>
+          <path d="M-20,340 C170,328 400,352 720,338" stroke="rgba(139,115,85,0.10)" stroke-width="0.9" fill="none"/>
+          <path d="M-20,385 C150,375 380,398 720,382" stroke="rgba(139,115,85,0.16)" stroke-width="1.4" fill="none"/>
+          <path d="M-20,430 C200,418 360,442 720,428" stroke="rgba(139,115,85,0.09)" stroke-width="0.8" fill="none"/>
+          <path d="M-20,475 C180,462 400,488 720,472" stroke="rgba(139,115,85,0.12)" stroke-width="1.0" fill="none"/>
+          <path d="M-20,520 C160,508 380,532 720,518" stroke="rgba(139,115,85,0.14)" stroke-width="1.2" fill="none"/>
+          <path d="M-20,565 C200,552 360,578 720,562" stroke="rgba(139,115,85,0.10)" stroke-width="0.9" fill="none"/>
+          <path d="M-20,610 C150,598 400,622 720,608" stroke="rgba(139,115,85,0.08)" stroke-width="0.7" fill="none"/>
+          <path d="M-20,655 C180,642 380,668 720,652" stroke="rgba(139,115,85,0.13)" stroke-width="1.1" fill="none"/>
+          <path d="M-20,700 C200,688 360,712 720,698" stroke="rgba(139,115,85,0.11)" stroke-width="0.9" fill="none"/>
+          <path d="M-20,745 C160,732 400,758 720,742" stroke="rgba(139,115,85,0.15)" stroke-width="1.3" fill="none"/>
+          <path d="M-20,790 C150,778 380,802 720,788" stroke="rgba(139,115,85,0.09)" stroke-width="0.8" fill="none"/>
+          <path d="M-20,840 C200,828 360,852 720,838" stroke="rgba(139,115,85,0.12)" stroke-width="1.0" fill="none"/>
+        </svg>
+        <p class="hero-coords">N 19°26' · W 99°07'</p>
+      </div>
+
+      <div class="hero-content">
+        <span class="eyebrow">Estudio de mobiliario</span>
+        <h1>Muebles que duran más que las tendencias.</h1>
+        <p class="hero-subtext">Diseñamos y fabricamos mobiliario a medida usando maderas naturales seleccionadas. Cada pieza es única.</p>
+        <div class="hero-ctas">
+          <a href="#contacto" class="btn btn-dark">Iniciar proyecto</a>
+          <a href="#portafolio" class="btn btn-ghost">Ver portafolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATEMENT -->
+    <div class="statement" data-animate>
+      <div class="statement-inner">
+        <p>No hacemos muebles en serie. Hacemos piezas que cuentan la <em>historia</em> de quien las encarga.</p>
+      </div>
+      <div class="statement-meta">
+        <span>Ciudad de México &nbsp;·&nbsp; Desde 2016 &nbsp;·&nbsp; 100% local</span>
+      </div>
+    </div>
+
+    <!-- STATS BAR -->
+    <div class="stats-bar" data-animate aria-label="Números de Serpentina Taller">
+      <div class="stat">
+        <span class="stat-number">+340</span>
+        <span class="stat-label">Proyectos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">9</span>
+        <span class="stat-label">Años</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Fabricación local</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">18</span>
+        <span class="stat-label">Especies de madera</span>
+      </div>
+    </div>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" data-animate aria-labelledby="servicios-titulo">
+      <div class="servicios-inner">
+        <div class="section-header">
+          <h2 id="servicios-titulo">Lo que hacemos</h2>
+          <p class="section-intro">Trabajamos con clientes residenciales, comerciales y arquitectos en proyectos donde el detalle y la calidad no son negociables.</p>
+        </div>
+        <div class="servicios-grid">
+
+          <div class="servicio-card">
+            <span class="servicio-num">01</span>
+            <h3>Closets y vestidores</h3>
+            <p>Sistemas de almacenamiento diseñados a medida, desde walk-ins completos hasta closets de habitación.</p>
+            <span class="servicio-arrow" aria-hidden="true">→</span>
+          </div>
+
+          <div class="servicio-card">
+            <span class="servicio-num">02</span>
+            <h3>Muebles sobre diseño</h3>
+            <p>Piezas únicas concebidas junto al cliente o en colaboración con arquitectos e interioristas.</p>
+            <span class="servicio-arrow" aria-hidden="true">→</span>
+          </div>
+
+          <div class="servicio-card">
+            <span class="servicio-num">03</span>
+            <h3>Mesas y escritorios</h3>
+            <p>Desde mesas de comedor para diez personas hasta escritorios de trabajo de alta precisión.</p>
+            <span class="servicio-arrow" aria-hidden="true">→</span>
+          </div>
+
+          <div class="servicio-card">
+            <span class="servicio-num">04</span>
+            <h3>Libreros y estantes</h3>
+            <p>Soluciones verticales de piso a techo, modulares o fijas, que se adaptan al espacio y al uso.</p>
+            <span class="servicio-arrow" aria-hidden="true">→</span>
+          </div>
+
+          <div class="servicio-card">
+            <span class="servicio-num">05</span>
+            <h3>Mobiliario comercial</h3>
+            <p>Barras, mostradores, estanterías y ambientaciones completas para restaurantes, boutiques y oficinas.</p>
+            <span class="servicio-arrow" aria-hidden="true">→</span>
+          </div>
+
+          <div class="servicio-card">
+            <span class="servicio-num">06</span>
+            <h3>Restauración</h3>
+            <p>Recuperamos piezas con valor sentimental o histórico usando los mismos materiales y técnicas del original.</p>
+            <span class="servicio-arrow" aria-hidden="true">→</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section id="proceso" data-animate aria-labelledby="proceso-titulo">
+      <div class="proceso-inner">
+        <div class="section-header" style="display:block; margin-bottom: var(--space-2xl);">
+          <span class="eyebrow">Cómo trabajamos</span>
+          <h2 id="proceso-titulo">Un proceso transparente<br>de principio a fin.</h2>
+        </div>
+        <div class="proceso-timeline">
+          <div class="proceso-line" aria-hidden="true"></div>
+          <div class="proceso-steps">
+
+            <div class="proceso-step">
+              <div class="proceso-dot" aria-hidden="true"></div>
+              <span class="proceso-num">01</span>
+              <h3>Consulta inicial</h3>
+              <p>Conversamos sobre el proyecto, el espacio y tus necesidades. Sin compromiso. Puede ser presencial o por videollamada.</p>
+            </div>
+
+            <div class="proceso-step">
+              <div class="proceso-dot" aria-hidden="true"></div>
+              <span class="proceso-num">02</span>
+              <h3>Diseño y propuesta</h3>
+              <p>Desarrollamos planos técnicos, selección de materiales y cotización detallada. Ajustamos hasta que sea exactamente lo que buscas.</p>
+            </div>
+
+            <div class="proceso-step">
+              <div class="proceso-dot" aria-hidden="true"></div>
+              <span class="proceso-num">03</span>
+              <h3>Fabricación en taller</h3>
+              <p>Todo se hace en nuestro taller en CDMX. Puedes visitarnos durante el proceso para ver cómo avanza tu pieza.</p>
+            </div>
+
+            <div class="proceso-step">
+              <div class="proceso-dot" aria-hidden="true"></div>
+              <span class="proceso-num">04</span>
+              <h3>Entrega e instalación</h3>
+              <p>Entregamos e instalamos con nuestro equipo. Garantía de por vida en estructura y herrajes.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section id="portafolio" data-animate aria-labelledby="portafolio-titulo">
+      <div class="portafolio-inner">
+        <div class="portafolio-header">
+          <div>
+            <span class="eyebrow">Nuestro trabajo</span>
+            <h2 id="portafolio-titulo">Portafolio</h2>
+          </div>
+        </div>
+
+        <div class="gallery-filters" role="group" aria-label="Filtrar por categoría">
+          <button class="gallery-filter active" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="gallery-filter" data-filter="closets"  aria-pressed="false">Closets</button>
+          <button class="gallery-filter" data-filter="mesas"    aria-pressed="false">Mesas</button>
+          <button class="gallery-filter" data-filter="libreros" aria-pressed="false">Libreros</button>
+          <button class="gallery-filter" data-filter="comercial" aria-pressed="false">Comercial</button>
+          <button class="gallery-filter" data-filter="proceso"  aria-pressed="false">Proceso</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid" role="list" aria-label="Galería de proyectos">
+          <!-- Renderizado por gallery-data.js + main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- MATERIALES -->
+    <section id="materiales" data-animate aria-labelledby="materiales-titulo">
+      <div class="materiales-inner">
+        <span class="eyebrow">Con lo que trabajamos</span>
+        <h2 id="materiales-titulo">Maderas</h2>
+        <div class="materiales-grid">
+
+          <div class="material-card">
+            <div class="material-swatch swatch-nogal" role="img" aria-label="Muestra de nogal americano"></div>
+            <div class="material-info">
+              <h3>Nogal americano</h3>
+              <p class="material-cientifico">Juglans nigra</p>
+              <p class="material-origen">Norteamérica</p>
+            </div>
+          </div>
+
+          <div class="material-card">
+            <div class="material-swatch swatch-roble" role="img" aria-label="Muestra de roble blanco"></div>
+            <div class="material-info">
+              <h3>Roble blanco</h3>
+              <p class="material-cientifico">Quercus alba</p>
+              <p class="material-origen">Norteamérica · Europa</p>
+            </div>
+          </div>
+
+          <div class="material-card">
+            <div class="material-swatch swatch-mezquite" role="img" aria-label="Muestra de mezquite"></div>
+            <div class="material-info">
+              <h3>Mezquite</h3>
+              <p class="material-cientifico">Prosopis laevigata</p>
+              <p class="material-origen">México</p>
+            </div>
+          </div>
+
+          <div class="material-card">
+            <div class="material-swatch swatch-fresno" role="img" aria-label="Muestra de fresno americano"></div>
+            <div class="material-info">
+              <h3>Fresno americano</h3>
+              <p class="material-cientifico">Fraxinus americana</p>
+              <p class="material-origen">Norteamérica</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios" data-animate aria-labelledby="testimonios-titulo">
+      <div class="testimonios-inner">
+        <div class="section-header">
+          <h2 id="testimonios-titulo">La mejor medida de nuestro trabajo es lo que queda cuando <em>nos vamos</em>.</h2>
+        </div>
+        <div class="testimonios-grid">
+
+          <article class="testimonio">
+            <blockquote>El proceso fue exactamente como lo describieron: transparente, sin sorpresas y con una calidad que supera cualquier precio.</blockquote>
+            <div class="testimonio-autor">
+              <span>Claudia R.</span>
+              <span class="testimonio-proyecto">Vestidor en roble · 2024</span>
+            </div>
+          </article>
+
+          <article class="testimonio">
+            <blockquote>Llevamos cuatro años con la mesa de mezquite y sigue igual que el primer día. Es el mueble más comentado en nuestra casa.</blockquote>
+            <div class="testimonio-autor">
+              <span>Jorge y Mariana T.</span>
+              <span class="testimonio-proyecto">Mesa de comedor · 2021</span>
+            </div>
+          </article>
+
+          <article class="testimonio">
+            <blockquote>Trabajar con Serpentina en el interiorismo del local fue una de las mejores decisiones. Entienden el espacio como pocos.</blockquote>
+            <div class="testimonio-autor">
+              <span>Sofía A.</span>
+              <span class="testimonio-proyecto">Mobiliario comercial · 2023</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" data-animate aria-labelledby="contacto-titulo">
+      <div class="contacto-inner">
+        <div class="contacto-grid">
+
+          <div class="contacto-info">
+            <span class="eyebrow">Hablemos</span>
+            <h2 id="contacto-titulo">¿Tienes un proyecto en mente?</h2>
+            <p>Cuéntanos qué necesitas. Sin compromiso, sin prisa. Respondemos en menos de 24 horas.</p>
+
+            <!-- TODO: Reemplazar 52XXXXXXXXXX con número real -->
+            <a href="https://wa.me/52XXXXXXXXXX?text=Hola%2C%20me%20gustar%C3%ADa%20cotizar%20un%20proyecto%20con%20Serpentina%20Taller."
+               class="btn btn-whatsapp"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Escribir a Serpentina Taller por WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Escribir por WhatsApp
+            </a>
+
+            <div class="contacto-datos">
+              <p>Ciudad de México</p>
+              <p>serpentinataller.mx</p>
+            </div>
+          </div>
+
+          <div class="contacto-form-wrap">
+            <!--
+              FORMSPREE: Reemplazar "XXXXXXXX" con el ID del formulario.
+              Crear cuenta en formspree.io → New Form → copiar el ID.
+            -->
+            <form id="contact-form"
+                  action="https://formspree.io/f/XXXXXXXX"
+                  method="POST"
+                  novalidate>
+
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="proyecto">Tipo de proyecto</label>
+                <select id="proyecto" name="proyecto">
+                  <option value="" disabled selected>Seleccionar…</option>
+                  <option value="Closet o vestidor">Closet o vestidor</option>
+                  <option value="Mesa o escritorio">Mesa o escritorio</option>
+                  <option value="Librero o estante">Librero o estante</option>
+                  <option value="Mobiliario comercial">Mobiliario comercial</option>
+                  <option value="Restauración">Restauración</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Cuéntanos de tu proyecto…"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-dark btn-submit">Enviar mensaje</button>
+
+              <div id="form-success" class="form-success" hidden role="status">
+                Mensaje enviado. Respondemos en menos de 24 horas.
+              </div>
+              <div id="form-error" class="form-error" hidden role="alert">
+                Algo salió mal. Intenta de nuevo o escríbenos por WhatsApp.
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col footer-marca">
+        <img src="assets/logos/Serpentina_Taller_Light.svg"
+             alt="Serpentina Taller"
+             height="28"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+        <span class="footer-marca-text" style="display:none">Serpentina Taller</span>
+        <p>Estudio de mobiliario y ebanistería en Ciudad de México.</p>
+        <div class="footer-social">
+          <!-- Instagram -->
+          <a href="https://instagram.com/taller_serpentina" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Serpentina Taller">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+          <!-- Pinterest (pendiente URL) -->
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Pinterest de Serpentina Taller">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 0c-6.627 0-12 5.373-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Closets y vestidores</a></li>
+          <li><a href="#servicios">Muebles sobre diseño</a></li>
+          <li><a href="#servicios">Mesas y escritorios</a></li>
+          <li><a href="#servicios">Libreros y estantes</a></li>
+          <li><a href="#servicios">Mobiliario comercial</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Estudio</h4>
+        <ul>
+          <li><a href="#proceso">Nuestro proceso</a></li>
+          <li><a href="#materiales">Materiales</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#testimonios">Clientes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="#contacto">Iniciar proyecto</a></li>
+          <!-- TODO: Reemplazar número -->
+          <li><a href="https://wa.me/52XXXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          <li><a href="https://instagram.com/taller_serpentina" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 Serpentina Taller</span>
+      <span>Ciudad de México &nbsp;·&nbsp; Hecho a mano</span>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       LIGHTBOX
+       ======================================================== -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Vista de pieza">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar">&#215;</button>
+    <div class="lightbox-inner">
+      <div class="lightbox-img-wrap">
+        <img id="lightbox-img" src="" alt="" style="display:none">
+        <div id="lightbox-placeholder" class="gallery-placeholder" style="display:none; min-height:400px;"></div>
+      </div>
+      <div class="lightbox-info">
+        <span class="eyebrow" id="lightbox-categoria"></span>
+        <h3 id="lightbox-nombre"></h3>
+        <p class="lightbox-material" id="lightbox-material"></p>
+        <p class="lightbox-año" id="lightbox-año"></p>
+        <!-- TODO: Reemplazar número en main.js → WA_NUMBER -->
+        <a id="lightbox-wa" href="#" class="btn btn-dark lightbox-cta" target="_blank" rel="noopener noreferrer">
+          Me interesa algo similar →
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="lightbox-overlay" id="lightbox-overlay"></div>
+
+  <!-- ========================================================
+       WHATSAPP FLOTANTE
+       ======================================================== -->
+  <!-- TODO: El href se setea desde main.js → WA_NUMBER -->
+  <a id="whatsapp-btn"
+     class="whatsapp-btn"
+     href="#"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Escribir por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-tooltip" aria-hidden="true">Escríbenos</span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/gallery-data.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
